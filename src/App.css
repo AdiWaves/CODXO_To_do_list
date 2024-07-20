@@ -1,0 +1,51 @@
+.App {
+  background: linear-gradient(to right, #245555, #5CA9E9, #255158);
+  height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  background: #cbcbcb;
+  margin: 0, 10px;
+  color: #ffffff;
+  text-align: left;
+  padding: 20px;
+  /*text-transform: uppercase;*/
+  letter-spacing: 1px;
+}
+
+.adder {
+  width: 1075px;
+ margin-left: 20px ;
+  position: relative;
+  font-weight: 200;
+}
+
+.adder input {
+  outline: none;
+  border: 1px solid white;
+  background: linear-gradient(to right, #0c2829, #51aec3, #243e3e);
+  color: white;
+  height: 50px;
+  width: 1080px;
+  padding-left: 5px;
+  font-weight: 200;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.adder span {
+  position: absolute;
+  right: 15px;
+  top: 0;
+  font-size: 30px;
+  font-weight: 200;
+  line-height: 1.8;
+  cursor: pointer;
+  transition: all 200ms;
+  color: white;
+}
+
+.adder span:hover {
+  transform: rotate(180deg);
+}
