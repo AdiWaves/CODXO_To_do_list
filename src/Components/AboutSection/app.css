@@ -1,0 +1,49 @@
+.AboutSection{
+    color: white;
+    width: 90vw;
+    margin: 20vh auto !important;
+}
+
+.AboutSection h2{
+    font-family: "DM Serif Text";
+    font-weight: normal;
+    font-size: 50px;
+}
+
+.spanOfAbout{
+    margin-left: 15px;
+    font-family: "Jacques Francois";
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+.subLineOfSubAbout{
+    display: flex;
+    font-size: 18px;
+    margin: 5px 50px;
+    font-family: "Jacques Francois";
+}
+
+.FirstSubLineOfSA{
+    font-weight: bolder;
+    font-size: 19px;
+    flex: 1;
+}
+
+.SecondSubLineOfSA{
+    flex: 5;
+}
+
+@media (max-width: 670px) {
+    .subLineOfSubAbout{
+        margin: 0;
+    }
+
+    .subLineOfSubAbout{
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+        margin: 15px 0;
+    }
+
+}
